@@ -8,7 +8,7 @@ const ExpenseFilter = (props) => {
     const currentYear = Number(new Date().getFullYear());
     const yearList = [];
 
-    for(var i=1; i<=4; i++){
+    for(var i=0; i<=3; i++){
         yearList.push(currentYear-i);
     }
 
